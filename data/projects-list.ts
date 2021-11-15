@@ -50,6 +50,6 @@ export const projectsList = [
     blurHash: "L09sWSxdH;s?%6axWAfk00V?%jax",
     link: "https://map-demo-e4aa6.web.app/",
     desc: `Interactive map application using react and openstreetmap api `,
-    technologies: ["javascript", "react", "openstreetmap", "firebase"]
+    technologies: ["react", "openstreetmap", "firebase"]
   }
 ];
