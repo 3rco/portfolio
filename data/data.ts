@@ -35,8 +35,8 @@ export const companies = [
 
 export const institutes = [
   {
-    short_title: "Middle East Technical University",
-    title: "Computer Education and Instructional Technology",
+    role: "Computer Education and Instructional Technology",
+    title: "Middle East Technical University",
     alt: "metu image",
     skills: ["computer science", "databases", "network"],
     period: "2010 - 2018",
