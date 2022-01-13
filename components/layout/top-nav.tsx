@@ -18,13 +18,13 @@ import { useRouter } from "next/router";
 const webLinks = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
+  { name: "Games", path: "/games/flappy.html" },
 ];
 
 const mobileLinks = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
 ];
-
 
 interface NavLinkProps {
   index?: number;
@@ -37,7 +37,7 @@ const NavLink = (props: NavLinkProps) => {
   const router = useRouter();
   const link = {
     bg: useColorModeValue("gray.200", "gray.900"),
-    color: useColorModeValue("blue.500", "blue.200")
+    color: useColorModeValue("blue.500", "blue.200"),
   };
 
   return (
@@ -48,7 +48,7 @@ const NavLink = (props: NavLinkProps) => {
         rounded={"md"}
         _hover={{
           textDecoration: "none",
-          bg: link.bg
+          bg: link.bg,
         }}
         bg={router.pathname === props.path ? link.bg : "transparent"}
         color={router.pathname === props.path ? link.color : "inherit"}
@@ -94,7 +94,7 @@ export default function TopNav() {
                 <Avatar
                   as={Link}
                   size={"sm"}
-                  src= {"assets/images/user_icon.jpeg"}
+                  src={"assets/images/user_icon.jpeg"}
                 />
               </NextLink>
             </Box>
