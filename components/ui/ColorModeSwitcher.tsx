@@ -17,7 +17,7 @@ export const ColorModeSwitcher: React.FC<ColorModeSwitcherProps> = props => {
       <MotionBox
         onClick={()=>toggleColorMode()}
         key={mode === "dark" ? "dark-icon" : "light-icon"}
-        initial={{ y: -20, opacity: 0 }}
+        initial={{ y: -30, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         exit={{ y: 20, opacity: 0 }}
         transition={{ duration: 0.2 }}
