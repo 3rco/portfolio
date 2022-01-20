@@ -65,9 +65,9 @@ const Home: React.FC<HomeProps> = ({ projects }) => {
           <Box as="h2" fontSize="2xl" fontWeight="400" textAlign="left" style={{fontSize:18}}>
             I am{" "}
             <Box as="strong" fontWeight="600" style={{fontSize:18}}>
-              Ercan Ünal
+              Ercan Ünal,
             </Box >{" "}
-            and I&apos;m a{" "}
+             a{" "}
             <Box as="span" whiteSpace="nowrap" style={{fontSize:18}}>
               Software Developer
             </Box>{" "}
