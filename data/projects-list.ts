@@ -16,6 +16,15 @@ export const projectsList = [
   },
   {
     id: 1,
+    title: "flappy",
+    blurHash: "L0Aer?tjH[tPyAayj[j[11ay%xkB",
+    logo: "/assets/images/projects/flappy.png",
+    link: "https://github.com/3rco/flappy-bird",
+    desc: `A flappy bird clone built with Phaser game engine `,
+    technologies: ["javascript", "phaser"],
+  },
+  {
+    id: 2,
     title: "urcode",
     blurHash: "L0Aer?tjH[tPyAayj[j[11ay%xkB",
     logo: "/assets/images/projects/urcode.png",
@@ -25,7 +34,7 @@ export const projectsList = [
     technologies: ["nextjs", "pwa", "javascript", "react"],
   },
   {
-    id: 2,
+    id: 3,
     title: "balkabağı",
     link: "https://play.google.com/store/apps/details?id=com.balkabagii&hl=tr&gl=US",
     logo: "/assets/images/projects/balkabagi.png",
@@ -34,7 +43,7 @@ export const projectsList = [
     technologies: ["react native", "javascript"],
   },
   {
-    id: 3,
+    id: 4,
     title: "erchat",
     logo: "/assets/images/projects/erchat.png",
     blurHash: "L2M5%%0000EN00I:-oIp00kC?^sl",
@@ -43,7 +52,7 @@ export const projectsList = [
     technologies: ["javascript", "socket"],
   },
   {
-    id: 4,
+    id: 5,
     title: "niminy",
     logo: "/assets/images/projects/niminy.png",
     blurHash: "L1O^uE0679I00AGT?.H{00y7p2tK",
@@ -52,7 +61,7 @@ export const projectsList = [
     technologies: ["javascript", "vscode extension"],
   },
   {
-    id: 5,
+    id: 6,
     title: "map pinner",
     // logo: gosave,
     logo: "/assets/images/projects/mappinner.png",

@@ -18,7 +18,6 @@ import { useRouter } from "next/router";
 const webLinks = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
-  { name: "Games", path: "/games/flappy.html" },
 ];
 
 const mobileLinks = [
