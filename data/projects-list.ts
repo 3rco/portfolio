@@ -19,7 +19,7 @@ export const projectsList = [
     title: "flappy",
     blurHash: "L0Aer?tjH[tPyAayj[j[11ay%xkB",
     logo: "/assets/images/projects/flappy.png",
-    link: "https://github.com/3rco/flappy-bird",
+    link: "https://ercanunal.dev/games/flappy.html",
     desc: `A flappy bird clone built with Phaser game engine `,
     technologies: ["javascript", "phaser"],
   },
