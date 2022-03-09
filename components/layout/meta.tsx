@@ -1,13 +1,13 @@
 import Head from "next/head";
 
 type Props = {
-    title: string;
-    description?: string;
-    keywords?: string;
-    image?: string;
-  };
+  title: string;
+  description?: string;
+  keywords?: string;
+  image?: string;
+};
 
-const Meta = ({ title, keywords, description, image } : Props): JSX.Element => {
+const Meta = ({ title, keywords, description, image }: Props): JSX.Element => {
   return (
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,7 +15,7 @@ const Meta = ({ title, keywords, description, image } : Props): JSX.Element => {
       <meta name="keywords" content={keywords} />
       <meta name="description" content={description} />
       <meta property="og:title" content={title} />
-      <meta property="og:image" content={image ? image : "/logo512.png"} />
+      <meta property="og:image" content={image ? image : "/favicon.ico"} />
       <title>{title}</title>
     </Head>
   );
@@ -24,7 +24,7 @@ const Meta = ({ title, keywords, description, image } : Props): JSX.Element => {
 Meta.defaultProps = {
   title: "Ercan Ünal - Full Stack Developer",
   keywords: "web development, programming, web design",
-  description: "Software Engineer. Lover of web and opensource."
+  description: "Software Engineer. Lover of web and opensource.",
 };
 
 export default Meta;
