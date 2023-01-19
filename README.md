@@ -11,6 +11,6 @@ This application is built using the following technologies:
 - [Framer Motion](https://www.framer.com/motion/)
 - [react icons](https://react-icons.github.io/react-icons/)
 
-## License
+### License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
