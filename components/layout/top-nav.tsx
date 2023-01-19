@@ -93,7 +93,7 @@ export default function TopNav() {
                 <Avatar
                   as={Link}
                   size={"sm"}
-                  src={"assets/images/user_icon.jpeg"}
+                  src={"assets/images/user_icon.jpg"}
                 />
               </NextLink>
             </Box>

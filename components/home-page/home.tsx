@@ -36,7 +36,7 @@ const Home: React.FC<HomeProps> = ({ projects }) => {
         >
           <Avatar
             size={"2xl"}
-            src={"assets/images/user_icon.jpeg"}
+            src={"assets/images/user_icon.jpg"}
           />
         </MotionBox>
         <MotionFlex
