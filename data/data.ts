@@ -1,10 +1,18 @@
 export const companies = [
   {
+    title: "Netta Tech",
+    alt: "Netta Tech image",
+    role: "Software Developer",
+    skills: ["javascript", "typescript","react", "react native", "nextjs", "graphql", "jest"],
+    period: "March 2023 - Present",
+    logo: '/assets/images/logos/netta.jpeg'
+  },
+  {
     title: "Anayurt Technology",
     alt: "Anayurt Teknoloji image",
     role: "Software Developer",
     skills: ["javascript", "typescript","react", "react native", "node","mongoDB"],
-    period: "April 2021 - Present",
+    period: "2021 - 2023",
     logo: '/assets/images/logos/anayurt.png'
   },
   {
